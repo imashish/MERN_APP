@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="col-lg-6"
+>
+  <div
+    className="Toastify"
+  />
+  <h4
+    className="card-title"
+  >
+    Fill in the details:
+  </h4>
+  <div
+    className="card"
+  >
+    <div
+      className="card-body"
+    >
+      <form
+        action="#"
+        onReset={[Function]}
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="fullName"
+          >
+            *Full Name
+          </label>
+          <input
+            className="form-control"
+            id="fullName"
+            name="fullName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            *Email
+          </label>
+          <input
+            className="form-control"
+            id="email"
+            name="email"
+            onBlur={[Function]}
+            onChange={[Function]}
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            htmlFor="email"
+          >
+            *Message
+          </label>
+          <textarea
+            className="form-control"
+            cols="70"
+            id="message"
+            name="message"
+            onBlur={[Function]}
+            onChange={[Function]}
+            rows="5"
+            value=""
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <button
+            className="btn btn-success m-2"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

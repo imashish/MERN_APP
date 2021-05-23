@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <nav
+      className="navbar navbar-expand navbar-dark bg-dark"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        ASSIGNMENT
+      </a>
+      <div
+        className="navbar-nav mr-auto"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/home"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/contactUs"
+            onClick={[Function]}
+          >
+            Contact Us
+          </a>
+        </li>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container mt-3"
+  >
+    <div
+      className="row pb-1"
+    >
+      <div
+        className="input-group col-lg-4"
+      >
+        <h3>
+          Hello World!
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+`;

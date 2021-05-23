@@ -1,0 +1,11 @@
+# POST http://localhost:3001/api/v1/addInfo/contactUs
+# Content-Type: application/json
+
+# {
+#     "fullName": "Raj",
+#     "email": "Raj@bigbang.com",
+#     "message": "Mute."
+# }
+
+
+GET http://localhost:3001/api/v1/filesData/saveToFile
